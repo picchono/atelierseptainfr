@@ -1,4 +1,4 @@
-Contact: mailto: pierre_levy [at] outlook.com
+Contact: mailto: atelierseptain [at] gmail.com
 Expires: 2022-12-30T22:59:00.000Z
 Preferred-Languages: en, fr
-Canonical: https://chaire-design.fr/security.txt
+Canonical: https://atelierseptain.fr/security.txt
