@@ -1,6 +1,6 @@
 /* TEAM */
-	Me: Pierre Lévy
-	Contact: pierre_levy [at] outlook.com
+	Me: Atelier Septain
+	Contact: atelierseptain [at] gmail.com
 	From: France
 
 /* THANKS */
