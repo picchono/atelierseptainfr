@@ -1,0 +1,12 @@
+# Netlify headers (published at the site root by Hugo).
+# Scripts carry a content hash in their file name (a change gives a new URL): 1 year.
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Photos have stable names (<photo>-<width>.webp), so a replaced photo keeps its URL: 1 week.
+/photos/*
+  Cache-Control: public, max-age=604800
+
+# Stylesheets (hashed) and fonts (not hashed): 30 days.
+/css/*
+  Cache-Control: public, max-age=2592000

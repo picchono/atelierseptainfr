@@ -1,0 +1,16 @@
+# Netlify redirects (published at the site root by Hugo). Kept here rather than in netlify.toml,
+# which this Netlify site does not read.
+
+# Stale pages from older builds (not produced by this site any more): always answer 404 ("!" = even if a file exists)
+/projects/               /404/      404!
+/projects/index.xml      /404/      404!
+/en/projects/            /en/404/   404!
+/en/projects/index.xml   /en/404/   404!
+/categories/*            /404/      404!
+/tags/*                  /404/      404!
+/en/categories/*         /en/404/   404!
+/en/tags/*               /en/404/   404!
+
+# Unknown pages: the site's own 404 page, in the visitor's language
+/en/*                    /en/404/   404
+/*                       /404/      404
