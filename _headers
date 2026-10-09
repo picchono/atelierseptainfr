@@ -7,6 +7,13 @@
 /photos/*
   Cache-Control: public, max-age=604800
 
+# Files from static/ with stable names (logo, default social image): 1 week as well.
+/images/*
+  Cache-Control: public, max-age=604800
+
+/instalogo.jpg
+  Cache-Control: public, max-age=604800
+
 # Stylesheets (hashed) and fonts (not hashed): 30 days.
 /css/*
   Cache-Control: public, max-age=2592000
